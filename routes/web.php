@@ -80,4 +80,6 @@ Route::group(['namespace'=>'Entreprise', 'prefix' => 'entreprise'], function(){
     //Route::post('/enseignant/registre', 'Auth\LoginController@login');
     Route::get('/enseignant/home', 'EnseignantController@index')->name('enseignant.home');
  });
+
+ Route::post('RegisterUsers','Auth\RegisterUsersController@register')->name('RegisterUsers');
  

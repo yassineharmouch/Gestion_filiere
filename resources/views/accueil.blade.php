@@ -54,7 +54,7 @@
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="/registre">s'inscrire</a></li>
+        <li><a href="{{route("register")}}">s'inscrire</a></li>
           <li class="drop-down"><a href="">users space</a>
             <ul>
               <li><a href="/admin/login">espace admin</a></li>
